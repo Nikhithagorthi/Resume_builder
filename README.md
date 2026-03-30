@@ -1,4 +1,4 @@
-A web-based application that allows users to create professional resumes بسهولة using a simple interface. Built with Flask (Python), this project helps users input their details and generate a structured resume instantly.
+A web-based application that allows users to create professional resumes using a simple interface. Built with Flask (Python), this project helps users input their details and generate a structured resume instantly.
 
 🚀 Features
 User-friendly interface to enter personal details
