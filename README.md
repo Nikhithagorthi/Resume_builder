@@ -1,16 +1,21 @@
-A web-based application that allows users to create professional resumes using a simple interface. Built with Flask (Python), this project helps users input their details and generate a structured resume instantly.
+Resume Builder with ATS Score using Flask
+
+A web-based application that allows users to create professional resumes and analyze them using an ATS (Applicant Tracking System) score. Built with Flask (Python), this project helps users generate resumes and evaluate how well they match job requirements.
 
 🚀 Features
-User-friendly interface to enter personal details
-Generates a well-structured resume
-Supports multiple sections:
+🧾 Create professional resumes بسهولة
+📊 ATS Score Analysis
+Calculates how well the resume matches job criteria
+Provides a percentage-based score
+Highlights missing keywords and improvements
+📂 Multiple sections:
 Personal Information
 Education
 Skills
 Projects
 Experience
-Dynamic rendering using Flask templates
-Easy to customize and extend
+⚡ Dynamic rendering using Flask templates
+🎯 Helps improve resume for real-world job applications
 🛠️ Tech Stack
 Backend: Python, Flask
 Frontend: HTML, CSS
@@ -22,8 +27,9 @@ Resume-Builder-Using-Flask/
 ├── static/            # CSS, images, JS
 ├── templates/         # HTML templates
 ├── app.py             # Main Flask application
+├── ats.py (optional)  # ATS scoring logic
 ├── requirements.txt   # Dependencies
-└── README.md          # Project documentation
+└── README.md
 ⚙️ Installation & Setup
 1. Clone the repository
 git clone https://github.com/your-username/resume-builder-flask.git
@@ -41,20 +47,35 @@ pip install -r requirements.txt
 python app.py
 6. Open in browser
 http://127.0.0.1:5000/
+📊 How ATS Score Works
+
+The ATS module evaluates resumes based on:
+
+✅ Keyword matching with job descriptions
+✅ Skills relevance
+✅ Formatting and structure
+✅ Section completeness
+📈 Output:
+ATS Score (e.g., 75%)
+Missing keywords suggestions
+Improvement tips
 📸 Screenshots (Optional)
 
-Add screenshots here to show UI of your project
+Add screenshots of:
 
+Resume builder UI
+ATS score result page
 💡 Future Enhancements
-Download resume as PDF
-Add multiple templates/themes
-User authentication (login/signup)
-Save and edit resumes
-AI-based resume suggestions
+📥 Download resume as PDF
+🎨 Multiple resume templates
+🔐 User authentication (login/signup)
+💾 Save & edit resumes
+🤖 AI-based job matching system
+🌍 Multilingual resume support
 🤝 Contributing
 
 Contributions are welcome!
-Feel free to fork this repo and submit a pull request.
+Feel free to fork this repository and submit a pull request.
 
 📄 License
 
