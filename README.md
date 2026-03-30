@@ -1,16 +1,65 @@
-# Resume-Builder-Using-FLask
-This project is to create a dynamic website in which you can generate your CV. I use Flask as minimalistic framework that allows to write very concisely web apps and plays nicely with a bunch libraries. Flask is one such library that allows to write content in Markdown and have it automatically converted to the equivalent html. Finally, Frozen-Flask can be used to "build" static Flask applications, turning everything into a collection of static html/css files that can be put on a web server (Tomcat, python) without needing additional technologies.
-In this Project you can also generate the pdf by clicking on the Print button.
+A web-based application that allows users to create professional resumes بسهولة using a simple interface. Built with Flask (Python), this project helps users input their details and generate a structured resume instantly.
 
-https://github.com/yash42828/Resume-Builder-Using-FLask
+🚀 Features
+User-friendly interface to enter personal details
+Generates a well-structured resume
+Supports multiple sections:
+Personal Information
+Education
+Skills
+Projects
+Experience
+Dynamic rendering using Flask templates
+Easy to customize and extend
+🛠️ Tech Stack
+Backend: Python, Flask
+Frontend: HTML, CSS
+Templating Engine: Jinja2
+Version Control: Git & GitHub
+📂 Project Structure
+Resume-Builder-Using-Flask/
+│
+├── static/            # CSS, images, JS
+├── templates/         # HTML templates
+├── app.py             # Main Flask application
+├── requirements.txt   # Dependencies
+└── README.md          # Project documentation
+⚙️ Installation & Setup
+1. Clone the repository
+git clone https://github.com/your-username/resume-builder-flask.git
+cd resume-builder-flask
+2. Create a virtual environment
+python -m venv venv
+3. Activate the environment
+Windows:
+venv\Scripts\activate
+Mac/Linux:
+source venv/bin/activate
+4. Install dependencies
+pip install -r requirements.txt
+5. Run the application
+python app.py
+6. Open in browser
+http://127.0.0.1:5000/
+📸 Screenshots (Optional)
 
-## Screenshots
-![Header Image](./1.png)
+Add screenshots here to show UI of your project
 
-![Header Image](./2.png)
+💡 Future Enhancements
+Download resume as PDF
+Add multiple templates/themes
+User authentication (login/signup)
+Save and edit resumes
+AI-based resume suggestions
+🤝 Contributing
 
-![Header Image](./3.png)
+Contributions are welcome!
+Feel free to fork this repo and submit a pull request.
 
-![Header Image](./4.png)
+📄 License
 
-![Header Image](./5.png)
+This project is open-source and available under the MIT License.
+
+🙌 Acknowledgements
+Flask Documentation
+Open-source community
